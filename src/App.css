@@ -7,12 +7,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #b4d7fe;
   height: 100%;
   width: 100%;
   font-family: 'Nunito', sans-serif;
 }
 
+body {
+  background-color: #b4d7fe;
+}
 
 /* # General CSS */
 
@@ -40,63 +42,64 @@
 
 /* # Main Containers */
 
-.container {
-  /* border: 1px solid black; */
-  /* height: 100%; */
+/* .container {
+  border: 1px solid black;
+  height: 100%;
   width: 100%;
-}
+} */
 
 .main_container {
-  /* border: 1px solid black; */
   height: 80%;
   width: 85%;
   border-radius: 45px;
   box-shadow: 0px 0px 20px #8eb0d6;
   display: flex;
   background-color: #5c9ce5;
+  /* border: 1px solid black; */
   /* justify-content: space-between; */
 }
 
 .main_left_side {
   height: 100%;
-  /* border: 1px solid black; */
   width: 30%;
   border-radius: 45px 0 0 45px;
-  background-color: #5c9ce5;
   padding: 3%;
-  display: flex;
-  justify-content: center;
+  /* border: 1px solid black; */
+  /* background-color: #5c9ce5; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 .main_right_side {
   height: 100%;
-  /* border: 1px solid black; */
   border-radius: 45px;
   background-color: #e4f1ff;
   padding: 2%;
+  /* border: 1px solid black; */
 }
 
 
 /* # Left Side Of Container */
 
-.main_left-header {
-  background-color: #5c9ce5;
-  /* border: 1px solid black; */
+.main_left_header {
   height: fit-content;
+  /* background-color: #5c9ce5; */
+  /* border: 1px solid black; */
+  /* height: 80px; */
 }
 
 .align {
   text-align: center;
 }
 
-.main_left-header .temp {
+.temp {
   font-size: 0.7rem;
-  background-color: #5c9ce5;
   color: #ffffff;
+  /* background-color: #5c9ce5; */
 }
 
 .color-size {
   color: #ffffff;
-  background-color: #5c9ce5;
   font-size: 2.2rem;
+  /* background-color: #5c9ce5; */
 }
