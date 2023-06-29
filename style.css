@@ -35,7 +35,7 @@ body {
 }
 
 .material-symbols-sharp {
-  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 200, 'opsz' 48;
+  font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 200, 'opsz' 48;
 }
 
 /* # Main Containers */
@@ -168,7 +168,33 @@ body {
   height: 100%;
   border-radius: 45px;
   background-color: #e4f1ff;
-  padding: 3%;
+  padding: 4%;
 }
 
 /* # Right Header */
+
+.right_content_left-header {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.right_content_left-header p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.right_content_right-header {
+  width: 20%;
+}
+.right_content_right-header span {
+  width: 10%;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.right_content_right-header img {
+  width: 60px;
+  border-radius: 25px;
+}
+
+/* # Right content */
