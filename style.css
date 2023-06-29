@@ -61,7 +61,7 @@ body {
 
 .main_left_side {
   height: 100%;
-  width: 30%;
+  width: 38%;
   border-radius: 45px 0 0 45px;
   padding: 3%;
   /* border: 1px solid black; */
@@ -93,9 +93,14 @@ body {
 }
 
 .temp {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #ffffff;
   /* background-color: #5c9ce5; */
+}
+
+.margin_left{
+  margin-left: 2rem;
+
 }
 
 .color-size {
@@ -111,7 +116,7 @@ body {
   margin-top: 3rem;
 }
 
-.content {
+/* .content {
   align-items: flex-start;
   justify-content: left;
-}
+} */
