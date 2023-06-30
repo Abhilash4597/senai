@@ -233,3 +233,19 @@ body {
   background-color: #ffffff;
   border-radius: 40px;
 }
+
+.first_filter {
+  border: 1px solid black;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  color: #b3b3b3;
+  width: 220px;
+}
+
+.second_filter {
+  border: 1px solid black;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  color: #060606;
+  width: 140px;
+}
