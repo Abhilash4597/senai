@@ -204,32 +204,7 @@ body {
   padding: 2.5% 4%;
 }
 
-.cards_heading {
-  margin-top: 50px;
-}
-
-.all_cards {
-  margin-top: 30px;
-}
-
-.first_row {
-  display: flex;
-  gap: 3rem;
-}
-
-.second_row {
-  display: flex;
-  gap: 3rem;
-  margin-top: 3rem;
-}
-
-.card {
-  height: 150px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 3%;
-}
-
+/* # Main graph starts */
 .graph_title {
   display: flex;
 }
@@ -294,6 +269,36 @@ body {
   margin-top: 2px;
 }
 
+/* # Main Graph End */
+
+/* # Card section start */
+
+.cards_heading {
+  margin-top: 50px;
+}
+
+.all_cards {
+  margin-top: 30px;
+}
+
+.first_row {
+  display: flex;
+  gap: 3rem;
+}
+
+.second_row {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.card {
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 3%;
+}
+
 .card_heading {
   justify-content: space-between;
 }
@@ -327,21 +332,23 @@ body {
 }
 
 .card_content p {
-  margin: 0 0 0 5px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
 }
 
+.gap1 {
+  gap: 15px;
+}
 
+.gap3{
+  gap: 5px;
+}
 
+.gap4{
+  gap: 10px;
+}
 
-
-
-
-
-
-
-
+/* # Semicircle Progress starts */
 .progress_circle{
   position: relative;
   margin-left: 30px;
@@ -362,10 +369,14 @@ body {
 .bar{
   position: absolute;
   width: 130px;
-  height: 150px; /* full circle! */
+  height: 150px; 
   border-radius: 50%;
   box-sizing: border-box;
-  border: 8px solid #eee;     /*half gray,*/
-  border-bottom-color: #0bf;  /* half azure */
+  border: 8px solid #eee;   
   border-left-color: #5c9ce5;
+  /* border-bottom-color: #0bf;*/  
 }
+
+/* # Semicircle progress ends */
+
+/* # Card section Ends */
