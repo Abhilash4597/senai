@@ -234,18 +234,40 @@ body {
   border-radius: 40px;
 }
 
+.graph_title {
+  display: flex;
+}
+
+.graph_filters {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
 .first_filter {
-  border: 1px solid black;
   font-size: 14px;
   background-color: #f1f1f1;
   color: #b3b3b3;
-  width: 220px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+
+.first_filter span {
+  width: 10%;
+  margin-right: 5px;
 }
 
 .second_filter {
-  border: 1px solid black;
   font-size: 14px;
   background-color: #f1f1f1;
   color: #060606;
-  width: 140px;
+  width: 99px;
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+
+.second_filter span {
+  width: 10%;
+  margin-right: 5px;
 }
