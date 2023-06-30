@@ -332,3 +332,40 @@ body {
   font-size: 18px;
 }
 
+
+
+
+
+
+
+
+
+
+
+.progress_circle{
+  position: relative;
+  margin-left: 30px;
+  /* margin: 4px; */
+  /* float:left; */
+  /* text-align: center; */
+  /* height: 100px; */
+  /* border: 1px solid black; */
+}
+
+.barOverflow{ /* Wraps the rotating .bar */
+  position: relative;
+  height: 70px; /* Half circle (overflow) */
+  overflow: hidden; /* Comment this line to understand the trick */
+  /* width: 190px;  */
+}
+
+.bar{
+  position: absolute;
+  width: 130px;
+  height: 150px; /* full circle! */
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 8px solid #eee;     /*half gray,*/
+  border-bottom-color: #0bf;  /* half azure */
+  border-left-color: #5c9ce5;
+}
