@@ -165,7 +165,7 @@ body {
   height: 100%;
   border-radius: 45px;
   background-color: #e4f1ff;
-  padding: 4%;
+  padding: 3%;
 }
 
 /* # Right Header */
@@ -245,14 +245,11 @@ body {
 
 .graph {
   margin-top: 30px;
-  /* border: 1px solid black; */
 }
 
 .graph_section {
   width: 40px;
   text-align: center;
-  /* padding-top: 50px; */
-  /* border: 1px solid red; */
 }
 
 .graph_section h5 {
@@ -283,17 +280,17 @@ body {
 
 .first_row {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .second_row {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 3rem;
 }
 
 .card {
-  height: 150px;
+  /* height: 150px; */
   background-color: #ffffff;
   border-radius: 40px;
   padding: 3%;
@@ -309,7 +306,6 @@ body {
 
 .card_heading span {
   width: 32px;
-  /* border: 1px solid black; */
   text-align: center;
   border-radius: 10px;
   font-size: 20px;
@@ -348,22 +344,51 @@ body {
   gap: 10px;
 }
 
+.progress_report {
+  color: #b0b0b0;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.progress_report progress{
+  height: 20px;
+}
+
+.progress_result{
+  color: #b0b0b0;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.progress_result progress{
+  height: 20px;
+}
+
+.data {
+  justify-content: space-between;
+  color: #b0b0b0;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.data p {
+  width: 15%;
+}
+
+.progress progress {
+  height: 20px;
+}
+
 /* # Semicircle Progress starts */
 .progress_circle{
   position: relative;
-  margin-left: 30px;
-  /* margin: 4px; */
-  /* float:left; */
-  /* text-align: center; */
-  /* height: 100px; */
-  /* border: 1px solid black; */
+  margin-left: 40px;
 }
 
 .barOverflow{ /* Wraps the rotating .bar */
   position: relative;
   height: 70px; /* Half circle (overflow) */
   overflow: hidden; /* Comment this line to understand the trick */
-  /* width: 190px;  */
 }
 
 .bar{
@@ -374,7 +399,6 @@ body {
   box-sizing: border-box;
   border: 8px solid #eee;   
   border-left-color: #5c9ce5;
-  /* border-bottom-color: #0bf;*/  
 }
 
 /* # Semicircle progress ends */
