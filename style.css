@@ -154,7 +154,7 @@ body {
 /* # Image */
 .main_left_side img {
   margin-top: 40px;
-  height: 440px;
+  height: 485px;
 }
 
 /* # Left Side Complete */
@@ -292,4 +292,23 @@ body {
 .graph_section p {
   font-weight: 600;
   margin-top: 2px;
+}
+
+.card_heading {
+  justify-content: space-between;
+}
+
+.card_heading h5{
+  font-size: 16px;
+}
+
+.card_heading span {
+  width: 32px;
+  /* border: 1px solid black; */
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 2px 0;
+  color: #ffffff;
+  background-color: #5c9ce5;
 }
