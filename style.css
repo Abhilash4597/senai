@@ -257,7 +257,7 @@ body {
   margin-bottom: 5px;
 }
 
-.graph_section span{
+.graph_section span {
   font-size: 20px;
 }
 
@@ -265,6 +265,8 @@ body {
   font-weight: 600;
   margin-top: 2px;
 }
+
+/* # Start from here tomorrow */
 
 /* # Main Graph End */
 
@@ -290,7 +292,6 @@ body {
 }
 
 .card {
-  /* height: 150px; */
   background-color: #ffffff;
   border-radius: 40px;
   padding: 3%;
@@ -300,7 +301,7 @@ body {
   justify-content: space-between;
 }
 
-.card_heading h5{
+.card_heading h5 {
   font-size: 16px;
 }
 
@@ -336,11 +337,11 @@ body {
   gap: 15px;
 }
 
-.gap3{
+.gap3 {
   gap: 5px;
 }
 
-.gap4{
+.gap4 {
   gap: 10px;
 }
 
@@ -350,17 +351,17 @@ body {
   font-size: 15px;
 }
 
-.progress_report progress{
+.progress_report progress {
   height: 20px;
 }
 
-.progress_result{
+.progress_result {
   color: #b0b0b0;
   margin-top: 5px;
   font-size: 14px;
 }
 
-.progress_result progress{
+.progress_result progress {
   height: 20px;
 }
 
@@ -380,24 +381,25 @@ body {
 }
 
 /* # Semicircle Progress starts */
-.progress_circle{
+.progress_circle {
   position: relative;
   margin-left: 40px;
 }
 
-.barOverflow{ /* Wraps the rotating .bar */
+.barOverflow {
+  /* Wraps the rotating .bar */
   position: relative;
   height: 70px; /* Half circle (overflow) */
   overflow: hidden; /* Comment this line to understand the trick */
 }
 
-.bar{
+.bar {
   position: absolute;
   width: 130px;
-  height: 150px; 
+  height: 150px;
   border-radius: 50%;
   box-sizing: border-box;
-  border: 8px solid #eee;   
+  border: 8px solid #eee;
   border-left-color: #5c9ce5;
 }
 
