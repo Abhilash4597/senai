@@ -358,7 +358,7 @@ body {
 .progress_result {
   color: #b0b0b0;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .progress_result progress {
@@ -369,7 +369,7 @@ body {
   justify-content: space-between;
   color: #b0b0b0;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .data p {
@@ -404,5 +404,20 @@ body {
 }
 
 /* # Semicircle progress ends */
+
+.progress_arrow {
+  text-align: center;
+  font-size: 22px;
+  margin-top: -55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress_arrow span {
+  font-size: 40px;
+  color: #5c9ce5;
+}
 
 /* # Card section Ends */
