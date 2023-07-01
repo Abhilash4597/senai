@@ -266,8 +266,6 @@ body {
   margin-top: 2px;
 }
 
-/* # Start from here tomorrow */
-
 .graph_percent {
   justify-content: space-between;
   font-size: 13px;
@@ -276,6 +274,8 @@ body {
 
 .graph_percent p{
   width: 32px;
+  position: relative;
+  bottom: 46px;
 }
 
 .graph_line {
@@ -290,6 +290,16 @@ body {
   width: 0;
   border: 1px solid #999999;
   height: 100px;
+  z-index: 1;
+}
+
+.graph_below_line {
+  position: relative;
+  bottom: 60px;
+  width: 95.8%;
+  margin: 0 auto;
+  height: 50px;
+  background-color: #5c9ce5;
 }
 
 /* # Main Graph End */
