@@ -141,9 +141,9 @@ body {
 }
 
 .sunny {
-  margin-left: 50px;
+  margin-left: 55px;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: #ffffff;
 }
 
@@ -154,7 +154,7 @@ body {
 /* # Image */
 .main_left_side img {
   margin-top: 40px;
-  height: 485px;
+  height: 477px;
 }
 
 /* # Left Side Complete */
@@ -248,7 +248,7 @@ body {
 }
 
 .graph_section {
-  width: 40px;
+  width: 35px;
   text-align: center;
 }
 
@@ -267,6 +267,30 @@ body {
 }
 
 /* # Start from here tomorrow */
+
+.graph_percent {
+  justify-content: space-between;
+  font-size: 13px;
+  text-align: center;
+}
+
+.graph_percent p{
+  width: 32px;
+}
+
+.graph_line {
+  margin: 0 auto;
+  width: 96%;
+  height: 100px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.line {
+  width: 0;
+  border: 1px solid #999999;
+  height: 100px;
+}
 
 /* # Main Graph End */
 
